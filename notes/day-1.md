@@ -23,22 +23,22 @@ create folder, open with vs code, create file named first.py and write codes (sc
 
 ### What is print?
 The print function simply prints the output.
-- `print syntax: print(message/variable_name)`
+- print syntax: `print(message/variable_name)`
 
 ### What is variable?
 Variables are the containers for storing data values, like numbers and characters. Variable is treated as a name or identifier that indicates the memory location where it stores the values.
-- `variable syntax: variable_name = value`
+- variable syntax: `variable_name = value`
 
 ### What are the types of variable?
-1 - String (character)
-2 - Number (number)
-3 - List (character +/ number)
+- String (character)
+- Number (number)
+- List (character +/ number)
 
 ### Variable naming convention:
-1 - Start with character/underscore
-2 - Can only contain alpha-numeric characters and numbers
-3 - It's case-sensitive (`age`, `Age`, `AGE` are 3 different variables)
-4 - Don't use the reserved keywords of Python
+- Start with character/underscore
+- Can only contain alpha-numeric characters and numbers
+- It's case-sensitive (`age`, `Age`, `AGE` are 3 different variables)
+- Don't use the reserved keywords of Python
 
 ### What is input?
 Input in Python is used to take inputs from the users.
