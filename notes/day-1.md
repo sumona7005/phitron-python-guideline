@@ -1,94 +1,62 @@
 # Notes
 
-### Introduction to Python
+### What is Python?
+Python is an interpreted, object-oriented, high-level (closer to human language ) performing language with dynamic typed features.
 
-- What is Python and it's features
-    - Python is an **interpreted**, **object-oriented**, **high-level performing** language with **dynamic typed feature**.
-    - High-Level: Closer to human language.
-- Application of Python
-    - Web Application
-    - Mobile Applications
-    - Desktop Applications
-    - Games and 3D Applications
-    - Machine Learning and Artificial Intelligence
-    - Data Science
-    - Data Analysis
-    - Web Scraping
-    - Computer Vision
-- Why we need to learn Python
-    - Beginner friendly
-    - Job as Data Scientist
-    - Job as Machine Learning Engineer
-    - Scripting and Automation
-    - Web Development
-    - Diversity
-    - Write less, do more
-- To Do
-    - Watch tutorial
-    - Take notes
-    - Practice problems
-    - Seek help
+### Applications of Python:
+web app, mobile app, desktop app, games and 3D apps, machine learning and artificial intelligence, data science and data analysis, web scraping, computer vision.
 
-### Environment Setup
+### Why should we learn Python?
+It's beginner friendly, diverse, writes less and does more.
 
-- Python setup guide
-    - Download Python
-    - Check "Add python.exe to PATH
-    - Click on "Install Now"
-    - Check if installation was successful:
-        - Windows search → cmd → python --version 
-        - Python version will be displayed
-    - Check if Python is working:
-        - Windows search → cmd → python
-        - A nice environment will be displayed
-        - 5+4 → 9 will be displayed
-    - Windows search → Python → Open Python → A dedicated Command Promt will open
-    - Code editor for Python
-        - Visual Studio Code (install)
-        - Extenstion: Python (install)
+### Environment setup:
+Install Python, Visual studio Code, Python extension in VS Code.
 
-### Write Python Code
+### Check if everything is working:
+- windows search → cmd → python --version
+- windows search → cmd → python
+- windows search → cmd → 3+4
+- windows search → python → open python → a dedicated command prompt will open
 
-- [coding file of first code](/coding-files/1-first.py)
-    - Create folder, open with VS Code, create a file named first.py
-    - Write `print("Hello World!)
-    - Click on triangle button to the right (Run Python File)
-        - `print` is a function
-        - String should be inside of double quotation `" "`
+### How to write first code in Python:
+create folder, open with vs code, create file named first.py and write codes (screenshot is attached below)
 
-### Introduction to Variables (theory)
+### What is print?
+The print function simply prints the output.
+- `print syntax: print(message/variable_name)`
 
-- What is variable
-    - Variables are containers for storing data values, like numbers and characters.
-    - variable is treated as a name or identifier that indicates the memory location where it stores the value.
-    - `moneybag = 2000` = `variable_name operator value`
-    - Types of variable:
-        - String (character) `"string"` / `'string'`
-        - Number (number) `2000`
-        - List (character /+ number) `["list", 500]`
-- Variable naming convention
-    - Start with character / underscore `a = 10` , `_ = 10`
-    - Can't start with number `1a = 10`
-    - Can only contain alpha-numeric characters and underscores 
-        - `name = 'jack'` , `num2 = 12` , `my_name = 'jack`
-    - Variable names are case-sensitive
-        - `age` , `Age` , `AGE` are 3 different variables
-    - do not use reserved keywords of Pyrhon
+### What is variable?
+Variables are the containers for storing data values, like numbers and characters. Variable is treated as a name or identifier that indicates the memory location where it stores the values.
+- `variable syntax: variable_name = value`
 
-### Variables (coding)
+### What are the types of variable?
+1 - String (character)
+2 - Number (number)
+3 - List (character +/ number)
 
-- [coding file of variables](/coding-files/1-variable.py)
+### Variable naming convention:
+1 - Start with character/underscore
+2 - Can only contain alpha-numeric characters and numbers
+3 - It's case-sensitive (`age`, `Age`, `AGE` are 3 different variables)
+4 - Don't use the reserved keywords of Python
 
-### User Input
+### What is input?
+Input in Python is used to take inputs from the users.
+- input syntax: `input(message/variable_name)`
+- Input returns the data in the string format.
 
-- [coding file of user input](/coding-files/1-user-input.py)
-- Code explained
-    - Write `input` and keep it in a variable
-        - `user_name = input("Enter your name : ")`
-        - `age = input("Enter your age : ")`
-    - `print("Hello ", user_name, "Your age is : ", age)`
-    - run code and give input on terminal
-- `input` returns data in string format
+# My Codes
+
+- [first code](/coding-files/1-first.py)
+![](/code-image/first.png)
+- [variable](/coding-files/1-variable.py)
+![](/code-image/variable.png)
+- [input](/coding-files/1-input.py)
+![](/code-image/input.png)
+
+# Resource
+
+- [Variable, Data Types, Data Input](https://python.maateen.me/docs/variable-data-type-data-input/)
 
 # Screenshot
 
