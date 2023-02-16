@@ -1,6 +1,6 @@
 # problem-1
-length = input()
-breadth = input()
+length = int(input())
+breadth = int(input())
 if length == breadth:
     print("It's a square")
 else:
