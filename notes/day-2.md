@@ -1,3 +1,5 @@
+![](/group-image/day-2.jpg)
+
 # Link
 
 - Phitron Guideline
