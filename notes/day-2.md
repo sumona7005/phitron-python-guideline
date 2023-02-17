@@ -1,5 +1,3 @@
-![](/group-image/day-2.jpg)
-
 # Link
 
 - Phitron Guideline
@@ -55,5 +53,5 @@ Converts to float number.
 ![](/code-image/conditional-statement.png)
 - [typecasting](/coding-files/2-typecasting.py)
 ![](/code-image/typecasting.png)
-- [problems](/coding-files/2-problems.py)
+- [problems](/coding-files/2-problem.py)
 ![](/code-image/2-problem.png)

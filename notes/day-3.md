@@ -1,5 +1,3 @@
-![](/group-image/day-3.jpg)
-
 # Link
 
 - Phitron Guideline
@@ -8,5 +6,5 @@
 
 # Code
 
-- [problems](/coding-files/3-problems.py)
+- [problems](/coding-files/3-problem.py)
 ![](/code-image/3-problem.png)
