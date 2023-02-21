@@ -1,6 +1,6 @@
 # Outline
 
-![](/images/outline-1.jpg)
+![](/files/outline-1.jpg)
 
 # Link
 
@@ -21,7 +21,7 @@
 | **13** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
 | **14** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
 
-# Notes
+# Note
 
 ![Day-1....................](/files/header-1.png)
 
