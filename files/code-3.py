@@ -1,4 +1,4 @@
-# problem-1
+# .................... problem-1
 
 a = int(input("Enter the length of the rectangle"))
 b = int(input("Enter the breadth of the rectangle"))
@@ -7,7 +7,7 @@ if a == b:
 else:
     print("This is a rectangle")
 
-# problem-2 
+# .................... problem-2 
 
 a = int(input())
 b = int(input())
@@ -35,7 +35,7 @@ elif b >= a and b >= c:
 else:
     print(c, "is the largest number")
 
-# problem-3
+# .................... problem-3
 
 a = int(input())
 if a % 2 == 0:
@@ -43,7 +43,7 @@ if a % 2 == 0:
 else:
     print(a, "is an odd number")
 
-# problem-4
+# .................... problem-4
 
 marks = int(input("Enter your marks: "))
 if marks > 90:
@@ -55,7 +55,7 @@ elif marks >= 60 and marks <= 80:
 else:
     print("Your Grade is D")
 
-# problem-5
+# .................... problem-5
 
 year = int(input())
 
