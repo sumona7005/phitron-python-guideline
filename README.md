@@ -25,7 +25,7 @@
 
 ![Day-1....................](/files/header-1.png)
 
-### Screenshot of the [Code](/files/ss-1.png)
+### Screenshot of the [Code](ss.md)
 
 # Notes
 
@@ -76,7 +76,7 @@ Input in Python is used to take inputs from the users.
 
 ![Day-2....................](/files/header-2.png)
 
-### Screenshot of the [Code](/files/ss-2.png)
+### Screenshot of the [Code](ss.md)
 
 # Notes
 
@@ -111,7 +111,7 @@ Converts to float number.
 
 ![Day-3....................](/files/header-3.png)
 
-### Screenshot of the [Code](/files/ss-3.png)
+### Screenshot of the [Code](ss.md)
 
 # Notes
 
@@ -119,7 +119,7 @@ Converts to float number.
 
 ![Day-4....................](/files/header-4.png)
 
-### Screenshot of the [Code](/files/ss-4.png)
+### Screenshot of the [Code](ss.md)
 
 # Notes
 
@@ -169,21 +169,22 @@ Break stops the loop when the condition is fulfilled. Continue stops the current
 
 ![Day-5....................](/files/header-5.png)
 
-### Screenshot of the [Code]()
+### Screenshot of the [Code](ss.md)
 
 # Notes
 
-### nested loop:
-- end = " " (prints in single line)
+- end parameter prints in a single line
+- chr helps to work with alphabets
+- can traverse a nested list using nested loop
 
 ![Day-6....................](/files/header-6.png)
 
-### Screenshot of the [Code]()
+### Screenshot of the [Code](ss.md)
 
 # Notes
 
 ![Day-7....................](/files/header-7.png)
 
-### Screenshot of the [Code]()
+### Screenshot of the [Code](ss.md)
 
 # Notes
