@@ -21,153 +21,169 @@
 | **13** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
 | **14** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
 
-# Note
+# Details
 
 ![Day-1....................](/files/header-1.png)
 
-### What is Python?
+### Screenshot of the [Code](/files/ss-1.png)
+
+# Notes
+
+### python:
 Python is an interpreted, object-oriented, high-level (closer to human language ) performing language with dynamic typed features.
 
-### Applications of Python:
+### applications of python:
 web app, mobile app, desktop app, games and 3D apps, machine learning and artificial intelligence, data science and data analysis, web scraping, computer vision.
 
-### Why should we learn Python?
+### reasons to learn python?
 It's beginner friendly, diverse, writes less and does more.
 
-### Environment setup:
+### environment setup:
 Install Python, Visual studio Code, Python extension in VS Code.
 
-### Check if everything is working:
+### check if everything is working:
 - windows search → cmd → python --version
 - windows search → cmd → python
 - windows search → cmd → 3+4
 - windows search → python → open python → a dedicated command prompt will open
 
-### How to write first code in Python:
+### write first code in Python:
 create folder, open with vs code, create file named first.py and write codes (screenshot is attached below)
 
-### What is print?
+### print:
 The print function simply prints the output.
 - print syntax: `print(message/variable_name)`
 
-### What is variable?
+### variable:
 Variables are the containers for storing data values, like numbers and characters. Variable is treated as a name or identifier that indicates the memory location where it stores the values.
 - variable syntax: `variable_name = value`
 
-### What are the types of variable?
+### types of variable:
 - String (character)
 - Number (number)
 - List (character +/ number)
 
-### Variable naming convention:
+### variable naming convention:
 - Start with character/underscore
 - Can only contain alpha-numeric characters and numbers
 - It's case-sensitive (`age`, `Age`, `AGE` are 3 different variables)
 - Don't use the reserved keywords of Python
 
-### What is input?
+### input:
 Input in Python is used to take inputs from the users.
 - input syntax: `input(message/variable_name)`
 - Input returns the data in the string format.
 
-![](/files/ss-1.png)
-
 ![Day-2....................](/files/header-2.png)
 
-### Comment:
+### Screenshot of the [Code](/files/ss-2.png)
+
+# Notes
+
+### comment:
 Comments are used to explain or prevent execution of the code.
 - Single line comment: `# comment`
 - Multi-line comment: `""" comment """`
 
-### Operator:
+### operator:
 Operators are used to perform operations.
 - Arithmetic operators (+, -, *, /, **, //)
 - Comparison operators (==, !=, >, <, >=, <=)
 - Logical operators (and, or, not)
 
-### Boolean value:
+### boolean value:
 Boolean represents one of the two values: `True` or `False`.
 
-### Conditional statement:
+### conditional statement:
 Conditional statement handles conditions to make a decision using if statement.
 
-### If statement:
+### if statement:
 - if (1 condition)
 - if ... else (2 conditions)
 - if ... elif ... else (3 conditions)
 
-### Typecasting:
+### typecasting:
 - int()
 Converts to integer number.
 - float()
 Converts to float number.
 
-![](/files/ss-2.png)
 
 ![Day-3....................](/files/header-3.png)
 
-![](/files/ss-3.png)
+### Screenshot of the [Code](/files/ss-3.png)
+
+# Notes
+
+- No new notes: these problems are based on the previous lessons.
 
 ![Day-4....................](/files/header-4.png)
 
-### Loop:
+### Screenshot of the [Code](/files/ss-4.png)
+
+# Notes
+
+### loop:
 A loop is a sequence of instructions that is continually repeated until a certain condition is reached.
 
-### Types of Loop:
+### types of loop:
 - for loop
 - while loop
-- nested loop
+- nested loop (for +/ while)
 
-### for loop:
-A for loop is a control flow statement that executes code repeatedly for a particular number of iterations.
-
-### Syntax of for loop:
-for item in sequence:
-
-### Keyword in for loop explained:
-- sequence
-- range
-- list data structure
+### for vs while:
+The for statement iterates through a collection or iterable object or generator function. The while statement simply loops until a condition is False.
 
 ### range function:
-- range(end)
-- range(start, end)
-- range(start, end, step)
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
 
-### while loop:
-With the while loop we can execute a set of statements as long as a condition is true.
+### parameters in range:
+- start (optional, at which position to start)
+- stop (required, at which position to end)
+- end (optional, specify incrementation, default is 1)
 
-### Syntax:
-while condition:
-    statement
+### sequence:
+A sequence is a positionally ordered collection of items such as sting, list, range etc. The sequence index starts at 0 by default.
+
+### list data structure:
+Data Structure is a way of organizing data so that it can be accessed more efficiently depending upon the situation. Lists are used to store data of different data types in a sequential manner.
+
+### iteration:
+Iteration, is a process wherein a set of instructions or structures are repeated in a sequence a specified number of times or until a condition is met.
+
+### traversing:
+Traversing just means visiting all of the elements and doing something with each one. In Python, traversing is just iteration.
+
+### increment/decrement:
+incrementing or decrementing the variable is the action of changing/updating the value of a variable.
 
 ### break vs continue:
-Break stops the loop even if the while condition is true. Continue stops the current iteration and continue with the next.
+Break stops the loop when the condition is fulfilled. Continue stops the current iteration and continue with the next.
 
-Break stops the loop when the condition is fulfilled. Continue skips a particular condition and continues the loop. 
-
-- traverse
-- increment in while loop
-.
-.
-.
-
-###
-- range
-- start
-- end
-- stop
-
-### Infinite Loop:
-- condition won't be false
-- increment/decrement
-### Nested Loop:
-for/while inside for/while loop
-- end
-### Pattern:
-- row
-- col
+### infinite loop:
+- impossible using for loop
+- need while loop
+- condition is false
+- no increment/decrement needed
+. break in infinite loop (stops infinite loop in a particular area)
 
 ![Day-5....................](/files/header-5.png)
+
+### Screenshot of the [Code]()
+
+# Notes
+
+### nested loop:
+- end = " " (prints in single line)
+
 ![Day-6....................](/files/header-6.png)
+
+### Screenshot of the [Code]()
+
+# Notes
+
 ![Day-7....................](/files/header-7.png)
+
+### Screenshot of the [Code]()
+
+# Notes
