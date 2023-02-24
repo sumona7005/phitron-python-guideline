@@ -16,7 +16,7 @@ for i in range(1, 6):
 
 # problem 1:
 
-for row in range(3):
+for row in range(8):
     for col in range(row):
         print("#", end = ' ')
     print()

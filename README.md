@@ -27,7 +27,7 @@
 
 ### Screenshot of the [Code](ss.md)
 
-# Notes
+# Note
 
 ### python:
 Python is an interpreted, object-oriented, high-level (closer to human language ) performing language with dynamic typed features.
@@ -78,7 +78,7 @@ Input in Python is used to take inputs from the users.
 
 ### Screenshot of the [Code](ss.md)
 
-# Notes
+# Note
 
 ### comment:
 Comments are used to explain or prevent execution of the code.
@@ -113,7 +113,7 @@ Converts to float number.
 
 ### Screenshot of the [Code](ss.md)
 
-# Notes
+# Note
 
 - No new notes: these problems are based on the previous lessons.
 
@@ -121,7 +121,7 @@ Converts to float number.
 
 ### Screenshot of the [Code](ss.md)
 
-# Notes
+# Note
 
 ### loop:
 A loop is a sequence of instructions that is continually repeated until a certain condition is reached.
@@ -171,7 +171,7 @@ Break stops the loop when the condition is fulfilled. Continue stops the current
 
 ### Screenshot of the [Code](ss.md)
 
-# Notes
+# Note
 
 - end parameter prints in a single line
 - chr helps to work with alphabets
@@ -181,10 +181,19 @@ Break stops the loop when the condition is fulfilled. Continue stops the current
 
 ### Screenshot of the [Code](ss.md)
 
-# Notes
+# Note
+
+### Factorial:
+Factorial is the multiplication of all numbers from 1 to a chosen number.
+
+### Fibonacci:
+Fibonacci series is the sequence of numbers in which each number (fibonacci number) is the sum of the two preceding numbers.
+
+### Armstrong Number:
+Armstrong number is a number that is equal to the sum of cubes of its digits.
 
 ![Day-7....................](/files/header-7.png)
 
 ### Screenshot of the [Code](ss.md)
 
-# Notes
+# Note
