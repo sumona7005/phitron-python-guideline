@@ -22,7 +22,7 @@ n = int(input())
 for row in range(1, n+1):
     for col in range(row):
         print('*', end = ' ')
-    (print())
+    print()
 
 for row in range(n):
     for col in range(row, n-1):
@@ -39,7 +39,6 @@ for i in range(1, a + 1):
 # .................... problem 4
 
 a = input()
-num_len = len(a)
 sum = 0
 
 for i in a:
@@ -55,3 +54,20 @@ sum = 0
 for i in a:
     sum = sum + int(i) ** num_len
 print(sum)
+
+# .................... extra: tried to explore
+
+# single digit sum
+a = input()
+sum = 0
+for i in a:
+    sum = sum + int(i)
+
+if sum >= 10:
+    b = str(sum)
+    sum2 = 0
+    for j in b:
+        sum2 = sum2 + int(j)
+    print(sum2)
+else:
+    print(sum)
