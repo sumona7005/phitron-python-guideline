@@ -197,3 +197,5 @@ Armstrong number is a number that is equal to the sum of cubes of its digits.
 ### Screenshot of the [Code](ss.md)
 
 # Note
+
+- No new notes: these problems are based on the previous lessons.
