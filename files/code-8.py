@@ -138,5 +138,5 @@ a. sort(reverse=True) # descending
 print(a) # [32, 3, 0, -1]
 
 # max() = maximum element:
-a = [1, 2, 3, 4, 5,]
-print(a.max())
+a = [1, 2, 3, 4, 5]
+print(max(a)) # 5
