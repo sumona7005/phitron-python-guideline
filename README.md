@@ -2,23 +2,21 @@
 
 | Days | Post | YouTube | Problems | Quiz | Resources |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| **1** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1952647585127646) | [Tutorial](https://youtu.be/F6yB8CqTqaU) | | | [1](https://python.maateen.me/docs/variable-data-type-data-input/) |
-| **2** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1953326275059777) | [Tutorial](https://youtu.be/skT1PGw79Tg) | [Problem](https://docs.google.com/document/d/1hrXxtyaRMzxhPEmvk3uxfgmfk4Pu1x6VbXQcYwsiMAo/edit?fbclid=IwAR3GjGjkWI5VIwHXptMl3AQKY1_h9APlSKuZhHptVLWrb9bzt0xtJ6VYgQI) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdXvqgh2nIrm_sxe0p8un4O_RaKKrUHZhCWx-Qgzd30nF8TkQ/alreadyresponded?fbclid=IwAR2P2Fr4wyYAycHQex4WP7cxRw7yg68-LxhalMlkgVqUPMfheqmWZsipkp4) | [1](https://python.maateen.me/docs/conditional-logic/?fbclid=IwAR0dUJS9d1v9qmDfsHOfADR7Cu7PfoIK9K_G1jkEUVE9YlBSQafmltou2lI), [2](http://pybook.subeen.com/conditional-logic-python/?fbclid=IwAR0mTRUlisi_fFCPBXkR0NfG81TfGhAqKhqDWSLsk2uZjR1I0FPNs1F2m-o) |
+| **1** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1952647585127646) | [Tutorial](https://youtu.be/F6yB8CqTqaU) | | | [A](https://python.maateen.me/docs/variable-data-type-data-input/) |
+| **2** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1953326275059777) | [Tutorial](https://youtu.be/skT1PGw79Tg) | [Problem](https://docs.google.com/document/d/1hrXxtyaRMzxhPEmvk3uxfgmfk4Pu1x6VbXQcYwsiMAo/edit?fbclid=IwAR3GjGjkWI5VIwHXptMl3AQKY1_h9APlSKuZhHptVLWrb9bzt0xtJ6VYgQI) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdXvqgh2nIrm_sxe0p8un4O_RaKKrUHZhCWx-Qgzd30nF8TkQ/alreadyresponded?fbclid=IwAR2P2Fr4wyYAycHQex4WP7cxRw7yg68-LxhalMlkgVqUPMfheqmWZsipkp4) | [A](https://python.maateen.me/docs/conditional-logic/?fbclid=IwAR0dUJS9d1v9qmDfsHOfADR7Cu7PfoIK9K_G1jkEUVE9YlBSQafmltou2lI), [B](http://pybook.subeen.com/conditional-logic-python/?fbclid=IwAR0mTRUlisi_fFCPBXkR0NfG81TfGhAqKhqDWSLsk2uZjR1I0FPNs1F2m-o) |
 | **3** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1954042594988145) | [Tutorial](https://youtu.be/MO__gnlCJMc) | " | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSduUXnhixk8h9rC8WvCoEPeZcbLAAk4oolISkQBOrxEZywT-A/viewscore?edit_requested=true&fbclid=IwAR1IQbkfMLQMRzyInEjAgcszxeb1rAR6txNjJh8vk3MFS4uLAHvXWyfrTvc&fbzx=512191947273336626&viewscore=AE0zAgAzqpROxYg_qXj6TMfYQEbcnrmH6cMVFbHYslGjclmec9CNc_zCiVQdZET0hg) | |
-| **4** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1954787311580340) | [Tutorial](https://youtu.be/BuhA5j33mec) | | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSeBGNdM5bqWDE0QyPoq9hZr1uhgN9M_PdGZiRQeDhHlJFYqjw/viewform?fbclid=IwAR1roRpMsquc259gcSZrb1xbbovveyU_UMQ4O4ll2lu1byscEyXNspoSz_s) | [1](https://python.maateen.me/docs/loop/?fbclid=IwAR3DjKx4WaA2EG0se9JIFozPsfz4KYi8sMNBVo0qSyGzFdYzc9BYPcqPC14), [2](http://pybook.subeen.com/loop-python/?fbclid=IwAR0rfPvsMAqQ6ydP4UDvd1Dq5mmrRPnklNlpJkj9kgNRKpluWYDc5SVw3U0) |
-| **5** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1955522394840165) | [Tutorial](https://youtu.be/aytRFmpQHfY) | | [Quiz](https://docs.google.com/forms/d/1s3ZCM_mDmswP75Fyoh5Klpy4_OpmWQ-PlOJtxkUCF0U/viewform?edit_requested=true&fbclid=IwAR1f2H1orDxGhwXu0PDAXhZ5e8sPeV3Vw57PkpC7DRZyemhqTG0Ew_Tu_ic) | [1](https://python.maateen.me/docs/loop/?fbclid=IwAR34wgyWthpt67B0xj5AocQrQ1SeovVKgMkUrRVkhRoXtIfa1eZWOGAoqEY), [2](http://pybook.subeen.com/loop-python/?fbclid=IwAR1YAzKhWY9Rx2wCU-wwS5A65mdE1GgCl0ZUbZEECudhyiPCJGsc3dOmxwU) |
+| **4** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1954787311580340) | [Tutorial](https://youtu.be/BuhA5j33mec) | | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSeBGNdM5bqWDE0QyPoq9hZr1uhgN9M_PdGZiRQeDhHlJFYqjw/viewform?fbclid=IwAR1roRpMsquc259gcSZrb1xbbovveyU_UMQ4O4ll2lu1byscEyXNspoSz_s) | [A](https://python.maateen.me/docs/loop/?fbclid=IwAR3DjKx4WaA2EG0se9JIFozPsfz4KYi8sMNBVo0qSyGzFdYzc9BYPcqPC14), [B](http://pybook.subeen.com/loop-python/?fbclid=IwAR0rfPvsMAqQ6ydP4UDvd1Dq5mmrRPnklNlpJkj9kgNRKpluWYDc5SVw3U0) |
+| **5** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1955522394840165) | [Tutorial](https://youtu.be/aytRFmpQHfY) | | [Quiz](https://docs.google.com/forms/d/1s3ZCM_mDmswP75Fyoh5Klpy4_OpmWQ-PlOJtxkUCF0U/viewform?edit_requested=true&fbclid=IwAR1f2H1orDxGhwXu0PDAXhZ5e8sPeV3Vw57PkpC7DRZyemhqTG0Ew_Tu_ic) | [A](https://python.maateen.me/docs/loop/?fbclid=IwAR34wgyWthpt67B0xj5AocQrQ1SeovVKgMkUrRVkhRoXtIfa1eZWOGAoqEY), [B](http://pybook.subeen.com/loop-python/?fbclid=IwAR1YAzKhWY9Rx2wCU-wwS5A65mdE1GgCl0ZUbZEECudhyiPCJGsc3dOmxwU) |
 | **6** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1956270461432025) | [Tutorial](https://youtu.be/W814IspDqqk) | [Problem](https://docs.google.com/document/d/1rgo_PcrEZfNu9RzBX-6hbt1StLo54W2DrLDlq9TkJ-0/edit?fbclid=IwAR1SXX6K2Ul3zwGDaWgbgOBR96rmPfaKyxkkGKUexqBFmpKEokqwXdYABpU) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSd6BicqkebY_q8NvOpE-WSKtA9_XIfdj2-fi4BaffoDgPsKhg/viewform?fbclid=IwAR3bOcq1siZ_lVbr3m6QP0zEk23RTlg2AeboWXjcDASrYHTF-ud_llGyWiE) | |
-| **7** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1957092171349854) | Practice Day 1 | [Problem](https://docs.google.com/document/d/1KjQFtOiPGVfVnbH6rGIsn-uimCyaPdDHdn34lnkicU4/edit?fbclid=IwAR2OZ78ZuMgRSfLTR_6gkR3VGT_lU4TSV5zdzfpDaCcmZxDFFQNBM5vYbJA) | | [1](http://pybook.subeen.com/turtle-python/?fbclid=IwAR2OZ78ZuMgRSfLTR_6gkR3VGT_lU4TSV5zdzfpDaCcmZxDFFQNBM5vYbJA) |
-| **8** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1957852254607179) | [Tutorial](https://youtu.be/KXknCB3mx_o) | | [Quiz]() | [1](http://pybook.subeen.com/list-tuple-python/?fbclid=IwAR3206wzlwKqQmCnsj3rPsVmzDI-MkyK8QFKRsG027zzP-6S7HiOhftlwlA), [2](https://automatetheboringstuff.com/2e/chapter4/?fbclid=IwAR3kh53q-fJrWlmrNrHBdVqr_emQ_JED-PRJ8gYVBZl4am6E24Q1gcrm6aI) |
-
-| **9** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
-| **10** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
-| **11** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
-| **12** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
-| **13** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
-| **14** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
-
-
+| **7** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1957092171349854) | Practice Day 1 | [Problem](https://docs.google.com/document/d/1KjQFtOiPGVfVnbH6rGIsn-uimCyaPdDHdn34lnkicU4/edit?fbclid=IwAR2OZ78ZuMgRSfLTR_6gkR3VGT_lU4TSV5zdzfpDaCcmZxDFFQNBM5vYbJA) | | [A](http://pybook.subeen.com/turtle-python/?fbclid=IwAR2OZ78ZuMgRSfLTR_6gkR3VGT_lU4TSV5zdzfpDaCcmZxDFFQNBM5vYbJA) |
+| **8** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1957852254607179) | [Tutorial](https://youtu.be/KXknCB3mx_o) | | | [A](http://pybook.subeen.com/list-tuple-python/?fbclid=IwAR3206wzlwKqQmCnsj3rPsVmzDI-MkyK8QFKRsG027zzP-6S7HiOhftlwlA), [B](https://automatetheboringstuff.com/2e/chapter4/?fbclid=IwAR3kh53q-fJrWlmrNrHBdVqr_emQ_JED-PRJ8gYVBZl4am6E24Q1gcrm6aI) |
+| **9** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1958586097867128) | [Tutorial](https://youtu.be/Q_iqqYljBNg) | | | [A](https://python.maateen.me/docs/list/?fbclid=IwAR3_E_8uOEGkjOcsnR4JUtmfmd-4ShGOEXlIZQNTWOxwpim_Lv2ROkmeXIg), [B](https://automatetheboringstuff.com/2e/chapter4/?fbclid=IwAR02JCQe6DrUqLdhjUT9xQEX6GhFkvM6C4g6zgL_fibx1cv42KJvtOHqA7k) |
+| **10** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1959301331128938) | [Tutorial](https://youtu.be/0B0FEKb9KXc) | | | [A](https://www.geeksforgeeks.org/python-list-exercise/?fbclid=IwAR0CZerlrVhEgiQw35rOonvIfEQ-OLekBuz6vlregU52NQ6RvCQjLs2jbE8) |
+| **11** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1960101687715569) | [Tutorial](https://youtu.be/ZkmXKJk2KFA) | | | [A](http://pybook.subeen.com/string-python/?fbclid=IwAR3sHJ83WAubV6P1JMAMWtYrHwyru7tADIGwcKdPc-tjymgJRSq3GkaCa6o), [B](https://python.maateen.me/docs/string-manipulation/?fbclid=IwAR1o-cBZ-hlWtHWRSdd_AGAz4fQV2-e7gULpVmhyNvEiiW5ZS6Tc5xvWCEU) |
+| **12** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1961033750955696) | [Tutorial](https://youtu.be/Nwo5g_7IRQ8) | | | |
+| **13** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1961621257563612) | [Tutorial](https://youtu.be/PURLbDnQ-90) | | | [A](http://pybook.subeen.com/function-python/?fbclid=IwAR1p90JyaT4JQFm6q80PguRmfeYkLTXtBX2HrznAmm6e4QcofUVVfA5au6c), [B](https://python.maateen.me/docs/function/?fbclid=IwAR1mS_N363SLGiZKzK90IUDVoR9FtvGq0wAAM2ID-QI-nOSAS8cwwFqaW4o), [C](https://automatetheboringstuff.com/2e/chapter3/?fbclid=IwAR2oTkxzdDYQb27FGEIYXTQ89mTQHGDvr6ClhLYjhnCR4riaLyJuBNX72BI) |
+| **14** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1962289537496784) | [Tutorial](https://youtu.be/n5xNJfqxQTU) | | | [A](http://pybook.subeen.com/function-python/?fbclid=IwAR1LQFsXe1s04tIR_tNJt4ccl-Y5gprGYUomRKbvLSgj_deuidGY9LRcDy0), [B](https://python.maateen.me/docs/function/?fbclid=IwAR0gZ8aALbMFV1ATf8Q5EbjR2GZ579aycgkXNvyL5d5foBrccwJYebVSQf8), [C](https://automatetheboringstuff.com/2e/chapter3/?fbclid=IwAR02JCQe6DrUqLdhjUT9xQEX6GhFkvM6C4g6zgL_fibx1cv42KJvtOHqA7k) |
+| | | | | [Final Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdbA9ZKeX4tpHJN7ybIAX_NLWNniN_qLpxUDKHopeP_udSsvQ/viewform) | |
 
 # Summary
 
@@ -29,7 +27,8 @@
 - **Day 5** → more loop, ASCII
 - **Day 6** → more loop, (/, %, //), len, str
 - **Day 7** → practice problems
-- **Day 8** → list: indexing (check/replace value), traversing, slicing, methods (add lists, string into list, append, insert, copy, count, extend, pop, clear, reverse, sort, max)
+- **Day 8 :**
+    - list: indexing (check/replace value), traversing, slicing, methods (add lists, string into list, append, insert, copy, count, extend, pop, clear, reverse, sort, max)
 - **Day 9** → 
 - **Day 10** → 
 - **Day 11** → 
@@ -229,7 +228,8 @@ Armstrong number is a number that is equal to the sum of cubes of its digits.
 ### things to know:
 - data structure
 - contains different types of data
-- ordered data structure
+- ordered data
+ structure
 - mutable 
 - memory address = hexadecimal
 
@@ -258,6 +258,30 @@ Armstrong number is a number that is equal to the sum of cubes of its digits.
 ### Screenshot of the [Code](ss.md)
 
 # Note
+
+### take multiple input:
+- string: input.split
+- int: list(map(int, input().split()))
+- float: list(map(float, input().split()))
+
+### list comprehension part-1:
+- through number: [i + 5 for i in a]
+- through string: [i for i in a]
+- using range: [i for i in range()]
+
+### list comprehension part-2:
+- if: [i for i in range() if condition]
+- nested if: [i for i in range() if condition if condition]
+- nested if-else: ["result-1" if condition else "result-2" for i in range()]
+
+### 2D list comprehension (matrix to transpose):
+- [[col[row] for col in matrix] for row in range(2)]
+
+### matrix:
+- Matrix, a set of numbers arranged in rows and columns so as to form a rectangular array.
+
+### transpose:
+- The transpose of a matrix is found by interchanging its rows into columns or columns into rows.
 
 ![Day-10....................](/files/header-10.png)
 
