@@ -21,3 +21,7 @@
 ![](/files/header-6.png)
 # [Code Link](/files/code-6.py)
 ![](/files/ss-6.png)
+
+![](/files/header-7.png)
+# [Code Link](/files/code-7.py)
+![](/files/ss-7.png)

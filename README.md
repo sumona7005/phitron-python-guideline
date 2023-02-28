@@ -1,7 +1,3 @@
-# Outline
-
-![](/files/outline-1.jpg)
-
 # Link
 
 | Days | Post | YouTube | Problems | Quiz | Resources |
@@ -13,7 +9,8 @@
 | **5** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1955522394840165) | [Tutorial](https://youtu.be/aytRFmpQHfY) | | [Quiz](https://docs.google.com/forms/d/1s3ZCM_mDmswP75Fyoh5Klpy4_OpmWQ-PlOJtxkUCF0U/viewform?edit_requested=true&fbclid=IwAR1f2H1orDxGhwXu0PDAXhZ5e8sPeV3Vw57PkpC7DRZyemhqTG0Ew_Tu_ic) | [1](https://python.maateen.me/docs/loop/?fbclid=IwAR34wgyWthpt67B0xj5AocQrQ1SeovVKgMkUrRVkhRoXtIfa1eZWOGAoqEY), [2](http://pybook.subeen.com/loop-python/?fbclid=IwAR1YAzKhWY9Rx2wCU-wwS5A65mdE1GgCl0ZUbZEECudhyiPCJGsc3dOmxwU) |
 | **6** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1956270461432025) | [Tutorial](https://youtu.be/W814IspDqqk) | [Problem](https://docs.google.com/document/d/1rgo_PcrEZfNu9RzBX-6hbt1StLo54W2DrLDlq9TkJ-0/edit?fbclid=IwAR1SXX6K2Ul3zwGDaWgbgOBR96rmPfaKyxkkGKUexqBFmpKEokqwXdYABpU) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSd6BicqkebY_q8NvOpE-WSKtA9_XIfdj2-fi4BaffoDgPsKhg/viewform?fbclid=IwAR3bOcq1siZ_lVbr3m6QP0zEk23RTlg2AeboWXjcDASrYHTF-ud_llGyWiE) | |
 | **7** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1957092171349854) | Practice Day 1 | [Problem](https://docs.google.com/document/d/1KjQFtOiPGVfVnbH6rGIsn-uimCyaPdDHdn34lnkicU4/edit?fbclid=IwAR2OZ78ZuMgRSfLTR_6gkR3VGT_lU4TSV5zdzfpDaCcmZxDFFQNBM5vYbJA) | | [1](http://pybook.subeen.com/turtle-python/?fbclid=IwAR2OZ78ZuMgRSfLTR_6gkR3VGT_lU4TSV5zdzfpDaCcmZxDFFQNBM5vYbJA) |
-| **8** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
+| **8** | [Post](https://www.facebook.com/groups/youngcodersLP/permalink/1957852254607179) | [Tutorial](https://youtu.be/KXknCB3mx_o) | | [Quiz]() | [1](http://pybook.subeen.com/list-tuple-python/?fbclid=IwAR3206wzlwKqQmCnsj3rPsVmzDI-MkyK8QFKRsG027zzP-6S7HiOhftlwlA), [2](https://automatetheboringstuff.com/2e/chapter4/?fbclid=IwAR3kh53q-fJrWlmrNrHBdVqr_emQ_JED-PRJ8gYVBZl4am6E24Q1gcrm6aI) |
+
 | **9** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
 | **10** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
 | **11** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
@@ -21,7 +18,26 @@
 | **13** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
 | **14** | [Post]() | [Tutorial]() | [Problem]() | [Quiz]() | [Resource]() |
 
-# Details
+
+
+# Summary
+
+- **Day 1** → print, input, variable, sting, number, list
+- **Day 2** → operator, if-statement, boolean, int, float, type
+- **Day 3** → practice problems
+- **Day 4** → for, in, range, while, break, continue, nested loop
+- **Day 5** → more loop, ASCII
+- **Day 6** → more loop, (/, %, //), len, str
+- **Day 7** → practice problems
+- **Day 8** → list: indexing (check/replace value), traversing, slicing, methods (add lists, string into list, append, insert, copy, count, extend, pop, clear, reverse, sort, max)
+- **Day 9** → 
+- **Day 10** → 
+- **Day 11** → 
+- **Day 12** → 
+- **Day 13** → 
+- **Day 14** → 
+
+# Detailed Note
 
 ![Day-1....................](/files/header-1.png)
 
@@ -199,3 +215,58 @@ Armstrong number is a number that is equal to the sum of cubes of its digits.
 # Note
 
 - No new notes: these problems are based on the previous lessons.
+
+![Day-8....................](/files/header-8.png)
+
+### Screenshot of the [Code](ss.md)
+
+# Note
+
+### types of list
+- 1d list
+- 2d list / nested list
+
+### things to know:
+- data structure
+- contains different types of data
+- ordered data structure
+- mutable 
+- memory address = hexadecimal
+
+### indexing
+- indexing (check/replace value)
+    - starts from 0 by default
+    - highest index = length - 1
+    - types: positive, negative (reverse)
+- slicing [::] (similar to range)
+
+### methods
+
+- append = add element at the end
+- insert = add element at specified position
+- copy = copy the list before any changes
+- count = count an element
+- extend = add multiple element
+- pop = remove last element
+- clear = remove all elements
+- reverse = reverse a list
+- sort = sort elements of list
+- max = find maximum element
+
+![Day-9....................](/files/header-9.png)
+
+### Screenshot of the [Code](ss.md)
+
+# Note
+
+![Day-10....................](/files/header-10.png)
+
+### Screenshot of the [Code](ss.md)
+
+# Note
+
+![Day-11....................](/files/header-11.png)
+
+### Screenshot of the [Code](ss.md)
+
+# Note
