@@ -29,7 +29,8 @@
 - **Day 7** → practice problems
 - **Day 8 :**
     - list: indexing (check/replace value), traversing, slicing, methods (add lists, string into list, append, insert, copy, count, extend, pop, clear, reverse, sort, max)
-- **Day 9** → 
+- **Day 9 :** 
+    - take inputs (split, map), list comprehension (iteration though number, string, range) + (if, nested if, nested if-else) + matrix to transpose.
 - **Day 10** → 
 - **Day 11** → 
 - **Day 12** → 
@@ -288,6 +289,18 @@ Armstrong number is a number that is equal to the sum of cubes of its digits.
 ### Screenshot of the [Code](ss.md)
 
 # Note
+
+### swap element:
+simply save to a new variable before any changes
+
+### get unique elements:
+for loop + if condition + count + append
+
+### extract elements:
+for loop + if condition
+
+### create list using list comprehension
+for loop + if condition inside for loop
 
 ![Day-11....................](/files/header-11.png)
 
