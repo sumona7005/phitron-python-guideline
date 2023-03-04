@@ -31,8 +31,10 @@
     - list: indexing (check/replace value), traversing, slicing, methods (add lists, string into list, append, insert, copy, count, extend, pop, clear, reverse, sort, max)
 - **Day 9 :** 
     - take inputs (split, map), list comprehension (iteration though number, string, range) + (if, nested if, nested if-else) + matrix to transpose.
-- **Day 10** → 
-- **Day 11** → 
+- **Day 10 :**
+    - for loop + if + list comprehension: swap elements, get unique elements, extract elements, create list
+- **Day 11 :**
+    - declare string, indexing, for in, for in range, methods (lower, upper, title, capitalize, swapcase, casefold, islower, isupper, istitle, isdigit, replace)
 - **Day 12** → 
 - **Day 13** → 
 - **Day 14** → 
@@ -299,8 +301,63 @@ for loop + if condition + count + append
 ### extract elements:
 for loop + if condition
 
-### create list using list comprehension
+### create list using list comprehension:
 for loop + if condition inside for loop
+
+![Day-11....................](/files/header-11.png)
+
+### Screenshot of the [Code](ss.md)
+
+# Note
+
+### characteristics of string: 
+- data type
+- immutable (can't change)
+- ordered/sequential data type
+- indexing same as list
+
+### declare string:
+- using ' ' or " "
+- multiline string using ''' '''
+
+### indexing:
+- positive: a[1] (starts from 0 by default)
+- negative: a[-1] (prints in a reverse way, highest negative index = length - 1)
+
+### print elements of a string:
+- use for loop
+- use for + range
+
+### case related methods:
+- lower: converts string to lowercase
+- upper: converts string to uppercase
+- title: words start with uppercase, rest are lowercase
+- capitalize: first character is uppercase, rest are lowercase
+- swapcase: converts uppercase to lowercase & vice-versa
+- casefold: string to lowercase, but works in other languages too
+
+### check type:
+- islower
+- isupper
+- istitle
+- isdigit
+
+### replace a character:
+- replace('a', 'b') → replace all
+- replace(a[1], 'b') → replace all
+- replace('a', 'b', 1) → replace specific times
+
+![Day-11....................](/files/header-11.png)
+
+### Screenshot of the [Code](ss.md)
+
+# Note
+
+![Day-11....................](/files/header-11.png)
+
+### Screenshot of the [Code](ss.md)
+
+# Note
 
 ![Day-11....................](/files/header-11.png)
 
