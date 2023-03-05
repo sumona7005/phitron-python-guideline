@@ -41,7 +41,7 @@
 
 # Detailed Note
 
-![Day-1....................](/files/header-1.png)
+![Day-1....................](/header/header-1.png)
 
 # Note
 
@@ -135,7 +135,7 @@ print(_)
 print(my_list)
 ```
 
-![Day-2....................](/files/header-2.png)
+![Day-2....................](/header/header-2.png)
 
 # Note
 
@@ -273,7 +273,7 @@ else:
     print(year, "is not a leap year")
 ```
 
-![Day-3....................](/files/header-3.png)
+![Day-3....................](/header/header-3.png)
 
 # Note
 
@@ -364,7 +364,7 @@ else:
     print("not leap year")
 ```
 
-![Day-4....................](/files/header-4.png)
+![Day-4....................](/header/header-4.png)
 
 # Note
 
@@ -528,7 +528,7 @@ while True:
     # stops when Quit or q is entered
 ```
 
-![Day-5....................](/files/header-5.png)
+![Day-5....................](/header/header-5.png)
 
 # Note
 
@@ -596,7 +596,7 @@ for item in bazar_list:
         # displays every item
 ```
 
-![Day-6....................](/files/header-6.png)
+![Day-6....................](/header/header-6.png)
 
 # Note
 
@@ -714,7 +714,7 @@ while a > 0:
 print(rev_a)
 ```
 
-![Day-7....................](/files/header-7.png)
+![Day-7....................](/header/header-7.png)
 
 # Note
 
@@ -798,7 +798,7 @@ else:
     print(sum)
 ```
 
-![Day-8....................](/files/header-8.png)
+![Day-8....................](/header/header-8.png)
 
 # Note
 
@@ -981,7 +981,7 @@ a = [1, 2, 3, 4, 5]
 print(max(a)) # 5
 ```
 
-![Day-9....................](/files/header-9.png)
+![Day-9....................](/header/header-9.png)
 
 # Note
 
@@ -1082,7 +1082,7 @@ print(res)
 # print(a)
 ```
 
-![Day-10....................](/files/header-10.png)
+![Day-10....................](/header/header-10.png)
 
 # Note
 
@@ -1147,7 +1147,7 @@ print(a)
 # during the inner loop: (i=j) = ignored element (prints the rest)
 ```
 
-![Day-11....................](/files/header-11.png)
+![Day-11....................](/header/header-11.png)
 
 # Note
 
