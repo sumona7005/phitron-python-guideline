@@ -66,7 +66,3 @@ print(res)
 #       b.append(col[row])
 #   a.append(b)
 # print(a)
-
-
-# ....................
-# ....................

@@ -43,8 +43,6 @@
 
 ![Day-1....................](/files/header-1.png)
 
-### Screenshot of the [Code](ss.md)
-
 # Note
 
 ### python:
@@ -92,9 +90,52 @@ Input in Python is used to take inputs from the users.
 - input syntax: `input(message/variable_name)`
 - Input returns the data in the string format.
 
-![Day-2....................](/files/header-2.png)
+# Code
 
-### Screenshot of the [Code](ss.md)
+```python
+# .................... first code
+
+print("Hello World!")
+# print is a function
+# string should be inside of double quotation ""
+
+# .................... input
+
+# input function is used to take input from users
+# input syntax: input(value)
+# always put input function in a variable
+
+user_name = input("Enter your name")
+age = input("Enter your age")
+
+print("Hello", user_name, "Your age is: ", age)
+
+# input returns the data in string format
+
+# .................... variable
+# variable syntax: variable_name = value
+# types of variables: number, string, list
+
+# number:
+a = 10
+b = 30
+num1 = 3
+num2 = 4
+_num = 12
+# string:
+name = "phitron"
+_ = "naim"
+# list:
+my_list = ["alu", 200, "peyaj", 300]
+# list typed variable contains number +/ string
+
+print(a+b)
+print(name)
+print(_)
+print(my_list)
+```
+
+![Day-2....................](/files/header-2.png)
 
 # Note
 
@@ -126,18 +167,204 @@ Converts to integer number.
 - float()
 Converts to float number.
 
+# Code
+
+```python
+# .................... Comment
+# This is single line comment.
+"""
+This is multi-line comment.
+Python will ignore it.
+"""
+
+# .................... if statement:
+a = 5
+b = 2
+if a > b:
+    print("a is greater than b")
+
+# .................... if-else statement:
+rain = True
+if rain == True:
+    print("School e jabo na.")
+else:
+    print("School e jabo.")
+
+# .................... if-elif-else statement:
+print(10-4 == 6 and 10-5 == 15) # False
+print(10-4 == 6 or 10-5 == 15) # True
+print(not (10-5 == 15)) # True
+
+# .................... problem:
+marks = 85
+if marks >= 90 and marks <= 100:
+    print("2 ta candy pabe")
+elif marks >= 80 and marks <= 89:
+    print("1 ta candy pabe")
+else:
+    print("kichu e pabe na")
+
+# .................... Typecasting
+age = int(input())
+weight = float(input())
+# str and int can't be compared so used int, float
+
+if age >= 18:
+    print("you are adult")
+else:
+    print("you are child")
+
+print(weight)
+print(int(weight))
+print(type(weight)) # check type
+
+new_weight = int(weight)
+print(new_weight)
+print(type(new_weight)) # display int
+
+new_new_weight = float(new_weight)
+print(new_new_weight)
+print(type(new_new_weight)) # display float
+
+# .................... problem-1
+length = int(input())
+breadth = int(input())
+if length == breadth:
+    print("It's a square")
+else:
+    print("It's not a square")
+
+# .................... problem-2
+a = int(input())
+b = int(input())
+c = int(input())
+if a > b and a > c:
+    print("a is the largest number")
+elif b > a and b > c:
+    print("b is the largest number")
+else:
+    print("c is the largest number")
+
+# .................... problem-3
+num = int(input())
+if num % 2 == 0:
+    print(num, "is even")
+else:
+    print(num, "is odd")
+
+# .................... problem-4
+mark = int(input())
+if mark > 90:
+    print("your grade is A")
+elif mark > 80 and mark < 90:
+    print("your grade is B")
+elif mark >= 60 or mark <= 80:
+    print("your grade is C")
+else:
+    print("your grade is D")
+
+# .................... problem-5
+year = int(input())
+if (year % 400 == 0 and year % 100 == 0):
+    print(year, "is a leap year")
+elif (year % 4 == 0 and year % 100 != 0):
+    print(year, "is a leap year")
+else:
+    print(year, "is not a leap year")
+```
 
 ![Day-3....................](/files/header-3.png)
-
-### Screenshot of the [Code](ss.md)
 
 # Note
 
 - No new notes: these problems are based on the previous lessons.
 
-![Day-4....................](/files/header-4.png)
+# Code
 
-### Screenshot of the [Code](ss.md)
+```python
+# .................... problem-1
+
+a = int(input("Enter the length of the rectangle"))
+b = int(input("Enter the breadth of the rectangle"))
+if a == b:
+    print("This is a square")
+else:
+    print("This is a rectangle")
+
+# .................... problem-2 
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+# nested if concept:
+
+if a >= b:
+    if a >= c:
+        print(a, "is the largest number")
+    else:
+        print(c, "is the largest number")
+else:
+    if b >= c:
+        print(b, "is the largest number")
+    else:
+        print(c, "is the largest number")
+
+# using logical operators:
+
+if a >= b and a >= c:
+    print(a, "is the largest number")
+elif b >= a and b >= c:
+    print(b, "is the largest number")
+else:
+    print(c, "is the largest number")
+
+# .................... problem-3
+
+a = int(input())
+if a % 2 == 0:
+    print(a, "is an even number")
+else:
+    print(a, "is an odd number")
+
+# .................... problem-4
+
+marks = int(input("Enter your marks: "))
+if marks > 90:
+    print("Your Grade is A")
+elif marks > 80 and marks <= 90:
+    print("Your Grade is B")
+elif marks >= 60 and marks <= 80:
+    print("Your Grade is C")
+else:
+    print("Your Grade is D")
+
+# .................... problem-5
+
+year = int(input())
+
+# method-1:
+
+if year % 400 == 0:
+    print("leap year")
+elif year % 100 == 0:
+    print("not leap year")
+elif year % 4 == 0:
+    print("leap year")
+else:
+    print("not leap year")
+
+# method-2:
+
+if year % 400 == 0 and year % 100 == 0:
+    print("leap year")
+elif year % 4 == 0 and year != 0:
+    print("leap year")
+else:
+    print("not leap year")
+```
+
+![Day-4....................](/files/header-4.png)
 
 # Note
 
@@ -185,9 +412,123 @@ Break stops the loop when the condition is fulfilled. Continue stops the current
 - no increment/decrement needed
 . break in infinite loop (stops infinite loop in a particular area)
 
-![Day-5....................](/files/header-5.png)
+# Code
 
-### Screenshot of the [Code](ss.md)
+```python
+# .................... for loop vs while loop
+
+# for loop:
+for i in range(10):
+    print(i) # 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+# while loop:
+i = 0
+while i <= 10:
+    i = i + 1
+    print(i) # 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+
+# .................... range function with list
+
+# can't use range in while loop
+# without for loop:
+list = list(range(10))
+print(list) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# with for loop:
+for list in range(10):
+    print(list) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# .................... parameters in range function (start, end, step)
+
+r1 = list(range(5)) 
+r2 = list(range(2, 5))
+r3 = list(range(1, 10, 3))
+r4 = list(range(-5, 10, 3))
+
+print(r1) # [0, 1, 2, 3, 4]
+print(r2) # [2, 3, 4]
+print(r3) # [1, 4, 7]
+print(r4) # [-5, -2, 1, 4, 7]
+
+# .................... more about for loop
+
+# letter:
+m1 = "Hello World"
+for letter in m1:
+    print(letter) # display every letter
+
+# item:
+m2 = ["alu", "peyaj", 3, 2.5, -1, 0]
+for item in m2:
+    print(item) # display every item
+
+# filter:
+m3 = [12, 45, 7, -2, 4, 5, 6]
+for i in m3:
+    if i <= 10:
+        print(i) # 7, -2, 4, 5, 6
+
+# divisible number:
+for i in range(50):
+    if i % 3 == 0 and i % 5 == 0:
+        print(i) # 0, 15, 30, 45
+
+# sum:
+sum = 0
+for i in range(1, 11):
+    sum = sum + i # update variable
+print(sum) # 55
+
+# .................... break vs continue
+
+# with for loop:
+for i in range(10):
+    if i == 5:
+        break
+    print(i) # 0, 1, 2, 3, 4
+
+for i in range(10):
+    if i == 5:
+        continue
+    print(i) # 0, 1, 2, 3, 4, 6, 7, 8, 9
+
+# with while loop:
+a = 0
+while a <= 10:
+    a = a + 1
+    if a == 5:
+        break
+    print(a) # 1, 2, 3, 4
+
+a = 0
+while a <= 10:
+    a = a + 1
+    if a == 5:
+        continue
+    print(a) # 1, 2, 3, 4, 6, 7, 8, 9, 10, 11
+    # 11 = increments before printing
+
+# .................... infinite loop
+
+# can't run infinite loop with for loop
+a = 10
+while a == 10:
+    print(a) # prints continuously
+
+# another/better way:
+while True:
+    print("I love Python") # prints continuously
+
+# stops infinite loop in a particular area:
+while True:
+    b = input("Enter your name : ")
+    if b == "Quit" or b == "q":
+        break
+    print("Hello", b, "good morning.")
+    # stops when Quit or q is entered
+```
+
+![Day-5....................](/files/header-5.png)
 
 # Note
 
@@ -195,9 +536,67 @@ Break stops the loop when the condition is fulfilled. Continue stops the current
 - chr helps to work with alphabets
 - can traverse a nested list using nested loop
 
-![Day-6....................](/files/header-6.png)
+# Code
 
-### Screenshot of the [Code](ss.md)
+```python
+# .................... nested loop
+
+# end parameter prints in a single line:
+
+for i in range(1, 6):
+    for j in range(1, 6):
+        print(i * j, end = " ")
+    print()
+
+    # 1 2 3 4 5
+    # 2 4 6 8 10
+    # 3 6 9 12 15
+    # 5 10 15 20 25
+
+# .................... pattern printing
+
+# problem 1:
+
+for row in range(8):
+    for col in range(row):
+        print("#", end = ' ')
+    print()
+
+    # 
+    # # 
+    # # #
+    # # # #
+    # # # # #
+    # # # # # #
+    # # # # # # #
+
+# problem 2:
+
+# need ASCII to write alphabets
+# chr prints alphabet (65 = A, 97 = a)
+
+for row in range(5):
+    for col in range(row + 1):
+        print(chr(97 + row), end = " ")
+    print()
+
+    # a
+    # b b
+    # c c c
+    # d d d d
+    # e e e e e
+
+# .................... traversing nested list
+
+bazar_list = [["alu", "peyaj"], [12, 15, 20], ["pizza", 2.5, 30]]
+
+for item in bazar_list:
+    for mini_item in item:
+        print(mini_item)
+        # displays every item
+```
+
+![Day-6....................](/files/header-6.png)
 
 # Note
 
@@ -210,17 +609,196 @@ Fibonacci series is the sequence of numbers in which each number (fibonacci numb
 ### Armstrong Number:
 Armstrong number is a number that is equal to the sum of cubes of its digits.
 
-![Day-7....................](/files/header-7.png)
+# Code
 
-### Screenshot of the [Code](ss.md)
+```python
+# .................... 1. multiplication table
+
+a = int(input("Enter a number : "))
+
+for i in range(1, a + 1):
+    print(a, " X ", i, " = ", a * i)
+
+# .................... 2. factorial of a number
+
+a = int(input("Enter a value : "))
+factorial = 1
+
+for i in range(1, a + 1):
+    factorial = factorial * i 
+    # factorial *=i (shortcut)
+print(factorial)
+
+# .................... 3. fibonacci series
+
+a = 0
+b = 1
+# a, b = 0, 1 (shortcut)
+
+for i in range(10):
+    print(a, end = " ")
+    result = a + b
+    a = b
+    b = result
+print(a) # 0 1 1 2 3 5 8 13 21 34 55
+
+# .................... 4. count numbers digit in a number
+
+# method 1:
+
+a = int(input())
+count = 0
+
+while a > 0:
+    count = count + 1
+    a = a // 10
+print(count)
+
+# % = remainder
+# / = quotient (floating point, 5/2=2.5)
+# // = quotient (floor division, 5//2=2)
+# dividend % 10 (last digit)
+# dividend / 10 (all digit except last one)
+
+# method 2:
+
+b = input() # len doesn't work on int
+print(len(b)) # len function prints length
+
+# .................... 5. armstrong number
+
+# armstrong number = digit1ⁿ + digit2ⁿ... = equal to given number (ⁿ=length)
+
+# method 1:
+
+a = int(input())
+num_len = len(str(a))
+temp = a
+sum = 0
+
+while temp > 0:
+    last_digit = temp % 10
+    sum = sum + last_digit ** num_len
+    temp = temp // 10 
+    # temp //= 10 (shortcut)
+
+if sum == a:
+    print("armstrong number")
+else:
+    print("not armstrong number")
+
+# method 2:
+
+a = input()
+num_len = len(a)
+sum = 0
+
+for i in a:
+    sum = sum + int(i) ** num_len
+    # sum += int(i) ** num_len (shortcut)
+
+if int(a) == sum:
+    print("armstrong number")
+else:
+    print("not armstrong number")
+
+# .................... 6. reverse a number
+
+a = int(input())
+rev_a = 0
+
+while a > 0:
+    last_digit = a % 10
+    rev_a = rev_a * 10 + last_digit
+    a //= 10
+print(rev_a)
+```
+
+![Day-7....................](/files/header-7.png)
 
 # Note
 
 - No new notes: these problems are based on the previous lessons.
 
-![Day-8....................](/files/header-8.png)
+# Code
 
-### Screenshot of the [Code](ss.md)
+```python
+# .................... problem 1
+
+n = int(input())
+
+for row in range(n):
+    if row % 2 == 0:
+        result = 1
+    else:
+        result = 0
+    for col in range(row + 1):
+        print(result, end = " ")
+        if result == 1:
+            result = 0
+        else:
+            result = 1
+    print()
+
+# .................... problem 2
+
+n = int(input())
+
+for row in range(1, n+1):
+    for col in range(row):
+        print('*', end = ' ')
+    print()
+
+for row in range(n):
+    for col in range(row, n-1):
+        print('*', end = ' ')
+    print()
+
+# .................... problem 3
+
+a = int(input())
+
+for i in range(1, a + 1):
+    print(a*i, end = ' ')
+
+# .................... problem 4
+
+a = input()
+sum = 0
+
+for i in a:
+    sum = sum + int(i)
+print(sum)
+
+# .................... problem 5
+
+a = input()
+num_len = len(a)
+sum = 0
+
+for i in a:
+    sum = sum + int(i) ** num_len
+print(sum)
+
+# .................... extra: tried to explore
+
+# single digit sum
+a = input()
+sum = 0
+for i in a:
+    sum = sum + int(i)
+
+if sum >= 10:
+    b = str(sum)
+    sum2 = 0
+    for j in b:
+        sum2 = sum2 + int(j)
+    print(sum2)
+else:
+    print(sum)
+```
+
+![Day-8....................](/files/header-8.png)
 
 # Note
 
@@ -256,9 +834,154 @@ Armstrong number is a number that is equal to the sum of cubes of its digits.
 - sort = sort elements of list
 - max = find maximum element
 
-![Day-9....................](/files/header-9.png)
+# Code
 
-### Screenshot of the [Code](ss.md)
+```python
+# .................... indexing
+
+# check value:
+a = [11, 15, 20, 1.5, "alu"]
+print(a[4]) # alu
+
+# replace value:
+a[4] = "peyaj"
+print(a[4]) # peyaj
+
+# .................... types of indexing
+
+a = [12, 20, 34, "Phitron"]
+
+# positive indexing:
+print(a[0]) # 12
+# negative indexing:
+print(a[-3]) # 20
+
+# highest negative index = length
+print(len(a)) # -4
+print(a[-4]) # 12
+
+# change/replace value:
+a = [12, 20, 34, "Phitron"]
+a[-3] = 500 # changed in memory
+# checking if change was saved:
+if 20 in a:
+    print("Found")
+else:
+    print("Not Found")
+# Found
+
+# .................... traversing:
+a = [12, 20, 34, "Phitron"]
+# old way
+for i in a:
+    print(i) # 12, 20, 34, Phitron
+
+# new way
+for i in range(len(a)):
+    print(a[i]) # 12, 20, 34, Phitron
+
+for i in range(-1, -len(a)-1, -1):
+    print(a[i]) # Phitron, 34, 20, 12
+
+# .................... indexing in nested list
+b = [[12, 13], [18, 23, "Phitron"], [-1, -19]]
+
+# check value:
+print(b[0][1]) # 13
+
+# replace value:
+b[0][1] = 500
+print(b[0][1]) # 500
+
+# .................... list slicing
+
+a = [12, 13, 14, "Phitron", "Mango", [12.5, 19]]
+
+print(a[::]) # prints full list
+print(a[1::]) # skip 12
+print(a[2::4]) # 14
+
+print(a[::-1]) # reverse a list (new technique)
+print(a[-1:-3:-1]) # negative index needs step: [[12.5, 19], 'Mango']
+print(a[-1:-1:-1]) # empty list
+
+# .................... list methods
+
+# add two lists:
+a = [1, 2, 3]
+b = [4, 5, 6]
+c = a + b
+print(c) # [1, 2, 3, 4, 5, 6]
+
+# string into list:
+
+s = "Hello World!"
+print(list(s)) # ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!']
+
+# append() = add element at the end of list:
+a = [12, 24, 13, 45]
+a.append(100)
+a.append("Phitron")
+print(a) # [12, 24, 13, 45, 100, 'Phitron']
+
+# insert() = add element at specified position:
+a = [1, 2, 3, 4, 5]
+a.insert(2, 100)
+a.insert(10, 200) 
+# highest index = length
+# anything higher will be added at last
+print(a) # [1, 2, 100, 3, 4, 5, 200]
+
+# copy() = copy the list:
+a = [1, 2, 3, 4, 5]
+b = a.copy()
+# b = a # shortcut way
+print(b) # [1, 2, 3, 4, 5]
+
+# count() = count an element:
+a = [1, 2, 2, 2, 2, 4, 5, 5, 6]
+print(a.count(2)) # 4
+
+# extend() = add multiple elements:
+a = [12, 2, 5, 6]
+a.extend([32, 90])
+# a = a + [32, 90] # shortcut
+print(a) # [12, 2, 5, 6, 32, 90]
+
+# pop() = remove last element:
+a = [1, 2, 3, 4, 5]
+a.pop()
+print(a) # [1, 2, 3, 4]
+
+# remove() = remove particular element:
+a = [1, 2, 3, 4, 5]
+a.remove(4)
+print(a) # [1, 2, 3, 5]
+
+# clear() = remove all elements:
+a = [1, 2, 3, 4, 5]
+a.clear()
+print(a) # []
+
+# reverse() = reverse objects of list:
+a = [1, 2, 3, 4, 5] # copy to keep this unchanged
+# print(a[::-1]) # old
+a.reverse()
+print(a) # [5, 4, 3, 2, 1]
+
+# sort() = sort the list:
+a = [32, 0, -1, 3]
+# a.sort() # ascending by default
+# a.sort(reverse=False) # ascending
+a. sort(reverse=True) # descending
+print(a) # [32, 3, 0, -1]
+
+# max() = maximum element:
+a = [1, 2, 3, 4, 5]
+print(max(a)) # 5
+```
+
+![Day-9....................](/files/header-9.png)
 
 # Note
 
@@ -286,9 +1009,80 @@ Armstrong number is a number that is equal to the sum of cubes of its digits.
 ### transpose:
 - The transpose of a matrix is found by interchanging its rows into columns or columns into rows.
 
-![Day-10....................](/files/header-10.png)
+# Code
 
-### Screenshot of the [Code](ss.md)
+```python
+# .................... take multiple input
+
+# string:
+a = input().split()
+print(a)
+
+# int:
+a = list(map(int, input().split())) 
+print(a)
+# map(2 parameters)
+# list prevents converting to strings
+
+# float:
+a = list(map(float, input().split()))
+print(a)
+# without list will return object
+
+# .................... list comprehension part-1
+
+# example-1: iteration through number:
+a = [10, 20, 30, 40, 50] # main list
+b = [i + 5 for i in a]
+print(b)
+
+# example-2: iteration through string:
+a = "Hello World"
+b = [i for i in a]
+# b = list(a) # shortcut
+print(b)
+
+# example-3: using range function:
+a = [i for i in range(1, 20, 2)]
+b = [i for i in range(2, 20, 2)]
+# b = list(range(2, 20, 2))
+# shortcut (condition isn't applicable here)
+print(a)
+print(b)
+
+# .................... list comprehension part-2
+
+# example-4: using if:
+b = [i for i in range(1, 20) if i % 3 == 0]
+print(b)
+
+# example-5: nested if:
+# if & if here act like AND, not OR
+b = [i for i in range(1, 20) if i%3 == 0 if i%5 == 0]
+print(b)
+
+# example-6: nested if-else:
+b = ["even" if i%2 == 0 else "Odd" for i in range(20)]
+print(b)
+
+# .................... 2D list comprehension
+
+# convert matrix to transpose matrix
+matrix = [[1, 2], [3,4], [5, 6], [7, 8]]
+res = [[col[row] for col in matrix] for row in range(2)]
+print(res)
+
+# breakdown:
+# a = []
+# for row in range(2):
+#   b = []
+#   for col in matrix:
+#       b.append(col[row])
+#   a.append(b)
+# print(a)
+```
+
+![Day-10....................](/files/header-10.png)
 
 # Note
 
@@ -304,9 +1098,56 @@ for loop + if condition
 ### create list using list comprehension:
 for loop + if condition inside for loop
 
-![Day-11....................](/files/header-11.png)
+# Code
 
-### Screenshot of the [Code](ss.md)
+```python
+# .................... swap two list elements
+
+a = [11, 12, 13, 15, 16, 10]
+temp = a[0] # saves to new variable before any changes
+
+# a[len(a)] - 1 or,
+a[0] = a[-1] # 11 = 10
+a[-1] = temp # 10 = 11
+
+print(a) # [10, 12, 13, 15, 16, 11]
+
+# .................... count unique element in an list
+
+a = [1,2,2,3,3,3,4,5,6]
+b = []
+count = 0
+
+for i in a:
+    if i not in b: # if not present in b then add, otherwise ignore
+        count += 1 # counting every time after adding a value
+        b.append(i) # adds according to condition: [1,2,3,4,5,6]
+
+print(count) # 6 (total unique value)
+
+# .................... extract elements from a list
+
+test_list = [4, 6, 4, 3, 3, 4, 3, 4, 3, 8]
+k = 3
+res = []
+
+for i in test_list:
+    freq = test_list.count(i) # counts during iteration
+    if freq > k and i not in res: # adds i if freq>3 & not already present in res
+        res.append(i) # 4=4>3, 6=1<3, 3=4>3, 8=1<3
+print(res) # [4, 3]
+
+# .................... create list using list comprehension
+
+a = [[j for j in range(5) if i!=j] for i in range(5)]
+print(a)
+
+# 1st iteration = i in range(5) / outer list
+# 2nd iteration = j in range(5) / inner list
+# during the inner loop: (i=j) = ignored element (prints the rest)
+```
+
+![Day-11....................](/files/header-11.png)
 
 # Note
 
@@ -322,7 +1163,7 @@ for loop + if condition inside for loop
 
 ### indexing:
 - positive: a[1] (starts from 0 by default)
-- negative: a[-1] (prints in a reverse way, highest negative index = length - 1)
+- negative: a[-1] (prints in a reverse way)
 
 ### print elements of a string:
 - use for loop
@@ -347,20 +1188,138 @@ for loop + if condition inside for loop
 - replace(a[1], 'b') → replace all
 - replace('a', 'b', 1) → replace specific times
 
-![Day-11....................](/files/header-11.png)
+# Code
 
-### Screenshot of the [Code](ss.md)
+```python
+# .................... declare string
+
+a = 'Hello Rina'
+a = "Hello Rina"
+c = ''' This is a multi line string.
+    This isn't a multi line comment,
+    as it has been saved in a variable named c '''
+
+# .................... indexing
+
+# get element:
+a = "Hello world"
+print(a[0]) # positive: H
+print(a[-1]) # negative: d
+
+# .................... immutable
+a[-1] = "D" 
+print(a) # error
+# doesn't support assignment operator
+# can't change a string
+
+# .................... print elements:
+
+a = "Hello world"
+
+# way-1:
+for i in a:
+    print(i)
+    print(i, end = " ") # prints in a line
+
+# way-2:
+for i in range(len(a)):
+    print(a[i])
+    print(a[i], end = " ") # prints in a line
+
+# .................... case related methods:
+
+a = "hello world PYTHON ẞ"
+
+b = a.lower()
+print(b)
+# hello world python ß
+# converts string to lowercase
+
+c = a.upper()
+print(c)
+# HELLO WORLD PYTHON ẞ
+# converts string to uppercase
+
+d = a.title()
+print(d)
+# Hello World Python ẞ
+# words start with uppercase, rest are lowercase
+
+e = a.capitalize()
+print(e)
+# Hello world python ß
+# first character is uppercase, rest are lowercase
+
+f = a.swapcase()
+print(f)
+# HELLO WORLD python ß
+# converts uppercase to lowercase & vice-versa
+
+g = a.casefold()
+print(g)
+# hello world python ss
+# string to lowercase, but works in other languages too
+
+# .................... check type:
+
+a = "hello"
+b = "HELLO"
+c = "Hello"
+d = "15"
+print(a.islower())
+print(b.isupper())
+print(c.istitle()) 
+print(d.isdigit())
+
+# .................... replace string:
+
+a = "Hollo"
+b = a.replace(a[1], 'e') # replace all
+c = a.replace('o', 'e') # replace all
+d = a.replace('o', 'e', 1) # replace specific times
+
+print(b) # Helle
+print(c) # Helle
+print(d) # Hello
+
+# .................... string/list conversion:
+
+# join (works on string):
+a = ["h", "e" "l", "l", "o", "1", "0", "0"] 
+print("".join(a)) # hello100
+
+# list vs split:
+a = "hello"
+print(list(a)) # ['h', 'e', 'l', 'l', 'o']
+print(a.split()) # ['hello']
+```
+
+![Day-12....................](/files/header-12.png)
 
 # Note
 
-![Day-11....................](/files/header-11.png)
+# Code
 
-### Screenshot of the [Code](ss.md)
+```
+
+```
+
+![Day-13....................](/files/header-13.png)
+
+# Note
+
+# Code
+
+```
+
+```
+
+![Day-14....................](/files/header-14.png)
 
 # Note
 
-![Day-11....................](/files/header-11.png)
+# Code
 
-### Screenshot of the [Code](ss.md)
+```
 
-# Note
+```
