@@ -35,8 +35,10 @@
     - for loop + if + list comprehension: swap elements, get unique elements, extract elements, create list
 - **Day 11 :**
     - declare string, indexing, for in, for in range, methods (lower, upper, title, capitalize, swapcase, casefold, islower, isupper, istitle, isdigit, replace)
-- **Day 12** → 
-- **Day 13** → 
+- **Day 12 :**
+    - format, f"string, string concatenation, for, if-else, sorted, key/casefold, join, [::-1], split
+- **Day 13 :**
+    - function, types of function, parameter vs argument, print vs return
 - **Day 14** → 
 
 # Detailed Note
@@ -1398,10 +1400,80 @@ print(result)
 
 # Note
 
+### function:
+A function is a block of code that performs a specific task and only runs when it is called.
+
+### characteristics of function:
+- have/may not have input
+- does fixed work
+- can be reused
+
+### types of function:
+- built in function (methods)
+- user defined function
+
+### parameter:
+A parameter is the variable listed inside the parentheses in the function definition.
+
+### argument:
+An argument is the value that is sent to the function when it is called.
+
+### print:
+Print is a built-in function in Python that outputs information to the console or terminal. It's fixed and useful for debugging.
+
+### return:
+Return is a keyword in Python used to it stop further execution and send a value back to the caller of a function. It's only used inside a function and can be updated or modified.
+
 # Code
 
-```
+```python
+# .................... user defined function
 
+# syntax: def name():
+
+# 1. defining a function
+def greeting():
+    print("Hello, Good Morning")
+
+# 2. function calling
+greeting()
+
+# .................... parameter and argument
+
+def sum(a, b): # parameters: a, b
+    print(f"The summation of {a} and {b} = {a+b}")
+
+sum(2, 3) # arguments: 2, 3
+sum(5, 10) # arguments: 5, 10
+
+# .................... default parameters & keyword arguments
+
+def greetings(name = 'Rahat', age = "23"): # default parameters
+    print(f"Hello {name}. You are {age} years old.")
+
+greetings("Kalam", 30) # overwrite default parameters
+
+greetings(age = 23, name = 'Hamim') # keyword argument
+
+# .................... print vs return
+ 
+# print is fixed:
+def sum(a, b):
+    print(a + b)
+sum(2, 3)
+print(sum+5)
+
+#return can be updated, modified:
+def sum_with_return(a, b):
+    return a+b # stopped
+    print("Hello") # can't print after return
+
+result = sum_with_return(2, 3)
+
+result += 4
+print(result)
+
+print(sum_with_return(2,3)*3)
 ```
 
 ![Day-14....................](/header/header-14.png)
