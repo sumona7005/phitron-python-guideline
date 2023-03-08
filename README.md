@@ -27,19 +27,13 @@
 - **Day 5** → more loop, ASCII
 - **Day 6** → more loop, (/, %, //), len, str
 - **Day 7** → practice problems
-- **Day 8 :**
-    - list: indexing (check/replace value), traversing, slicing, methods (add lists, string into list, append, insert, copy, count, extend, pop, clear, reverse, sort, max)
-- **Day 9 :** 
-    - take inputs (split, map), list comprehension (iteration though number, string, range) + (if, nested if, nested if-else) + matrix to transpose.
-- **Day 10 :**
-    - for loop + if + list comprehension: swap elements, get unique elements, extract elements, create list
-- **Day 11 :**
-    - declare string, indexing, for in, for in range, methods (lower, upper, title, capitalize, swapcase, casefold, islower, isupper, istitle, isdigit, replace)
-- **Day 12 :**
-    - format, f"string, string concatenation, for, if-else, sorted, key/casefold, join, [::-1], split
-- **Day 13 :**
-    - function, types of function, parameter vs argument, print vs return
-- **Day 14** → 
+- **Day 8** → list: indexing (check/replace value), traversing, slicing, methods (add lists, string into list, append, insert, copy, count, extend, pop, clear, reverse, sort, max)
+- **Day 9** → take inputs (split, map), list comprehension (iteration though number, string, range) + (if, nested if, nested if-else) + matrix to transpose.
+- **Day 10** → for loop + if + list comprehension: swap elements, get unique elements, extract elements, create list
+- **Day 11** → declare string, indexing, for in, for in range, methods (lower, upper, title, capitalize, swapcase, casefold, islower, isupper, istitle, isdigit, replace)
+- **Day 12** → format, f"string, string concatenation, for, if-else, sorted, key/casefold, join, [::-1], split
+- **Day 13** → function, types of function, parameter vs argument, print vs return
+- **Day 14** → categories of function, lamda function
 
 # Detailed Note
 
@@ -1480,8 +1474,74 @@ print(sum_with_return(2,3)*3)
 
 # Note
 
+### categories of function:
+- no argument, no return
+- calculate, no parameters
+- no argument, has return
+- function with argument, no return
+- function with argument, return value
+
+### lamda function (anonymous function):
+A lambda function or anonymous function is defined without a name. It is a small and restricted function having no more than one line and it does not require a return statement. It can take any number of arguments, but can only have one expression. It is usually used when a function is required for a short period of time and only used once.
+
+### syntax of lamda:
+lambda arguments : expression
+
 # Code
 
-```
+```python
+# .................... category of function
 
+# no argument, no return:
+def greeting():
+    print("Hello")
+greeting()
+
+# calculate, no parameters:
+def sum():
+    a = int(input("Enter a number"))
+    b = int(input("Enter another number"))
+    print(a + b)
+sum()
+
+# no argument, has return:
+def addition():
+    a = 4
+    b = 3
+    # a = int(input())
+    # b = int(input())
+    return a + b
+
+result = addition()
+print(result + 10)
+
+# function with argument, no return:
+def addition(a = 10, b = 5):
+    result = print(a + b) + 10
+    print(result)
+
+addition()
+addition(4, 5)
+
+# function with argument, return value:
+def juice_maker(a, b):
+    res = f"mixture of {a} and {b} juice are ready"
+    return res
+
+result = juice_maker("apple", "orange")
+result2 = juice_maker("banana", "orange")
+print(result)
+print(result2)
+
+# .................... lamda function (anonymous function)
+
+# normal function:
+def greet():
+    print("Hello, Good Morning")
+
+# lamda function:
+# a = lamda arg: expression
+
+a = lamda : print("Hello, Good Morning")
+print(a)
 ```

@@ -41,7 +41,7 @@ result2 = juice_maker("banana", "orange")
 print(result)
 print(result2)
 
-# .................... lamda function (anonymous fuction)
+# .................... lamda function (anonymous function)
 
 # normal function:
 def greet():
